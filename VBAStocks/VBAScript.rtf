@@ -2,7 +2,7 @@
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\margl1440\margr1440\vieww19220\viewh10180\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 Sub Stocks()\
@@ -13,14 +13,12 @@ Dim ws As Worksheet\
     \
         lastrow = ws.Cells(Rows.Count, 1).End(xlUp).Row\
         \
-        Cells(1, 9).Value = \'93Ticker\'94\
+        Cells(1, 9).Value = "Ticker"\
         Cells(1, 10).Value = "Yearly Change"\
         Cells(1, 11).Value = "Percent Change"\
         Cells(1, 12).Value = "Total Stock Volume"\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0         Cells(1, 16).Value = \'93Ticker\'94\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0         Cells(1, 17).Value = "Value"\
+        Cells(1, 16).Value = "Ticker"\
+        Cells(1, 17).Value = "Value"\
         Cells(2, 15).Value = "Greatest % Increase"\
         Cells(3, 15).Value = "Greatest % Decrease"\
         Cells(4, 15).Value = "Greatest Total Volume"\
